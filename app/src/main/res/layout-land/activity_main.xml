@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtHomeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="@string/txtHomeTitle"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/txtPromptSelection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="87dp"
+        android:text="@string/txtPromptSelection"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnViewInventory"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="101dp"
+        android:layout_marginStart="100dp"
+        android:text="@string/txtInventoryBtn" />
+
+    <Button
+        android:id="@+id/btnViewPullList"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btnViewInventory"
+        android:layout_marginBottom="41dp"
+        android:text="@string/txtPullListBtn" />
+
+    <Button
+        android:id="@+id/btnUpdateInventory"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnSearchInventory"
+        android:layout_alignTop="@+id/btnViewInventory"
+        android:text="@string/txtUpdateInventoryBtn" />
+
+    <Button
+        android:id="@+id/btnSearchInventory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/btnViewPullList"
+        android:layout_marginEnd="96dp"
+        android:text="@string/txtSearchInventoryBtn" />
+
+</RelativeLayout>

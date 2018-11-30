@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Pull List And Inventory Creator</string>
+    <string name="txtInventoryBtn">View Inventory</string>
+    <string name="txtPullListBtn">View Pull List</string>
+    <string name="txtUpdateInventoryBtn">Update Inventory</string>
+    <string name="txtSearchInventoryBtn">Search For An Item</string>
+    <string name="txtCopyright">Copyright 2018 - Joshua Whipple</string>
+    <string name="txtPromptSelection">Select an option below:</string>
+    <string name="txtHomeTitle">Home</string>
+    <string name="txtMenuHome">Home</string>
+    <string name="txtMenuClearList">Clear Pull List</string>
+    <string name="txtViewInventoryTitle">Inventory</string>
+    <string name="txtItemName">Item Name</string>
+    <string name="txtItemVolume">Volume</string>
+    <string name="txtAddItem">Add Item</string>
+    <string name="txtPullListTitle">Pull List</string>
+    <string name="txtAddItemTitle">Add An Item</string>
+    <string name="txtItemNamePrompt">Item Name:</string>
+    <string name="txtItemSizePrompt">Item Size:</string>
+    <string name="txtOunces">oz(s)</string>
+    <string name="txtLiters">Liter(s)</string>
+    <string name="txtGallons">Gallon(s)</string>
+    <string name="txtAddPrompt">Add</string>
+    <string name="txtCancelPrompt">Cancel</string>
+    <string name="txtAmountOfUnit">(Amount Of Unit)</string>
+    <string name="txtMilliliters">mL(s)</string>
+    <string name="txtUpdateInventoryTitle">Update Inventory</string>
+    <string name="txtSearchInventoryTitle">Search</string>
+    <string name="txtSearchInventorySubtitle">Enter an item name:</string>
+    <string name="txtSearchResultsTitle">Search Results</string>
+</resources>
